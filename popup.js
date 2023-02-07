@@ -9,6 +9,6 @@
     }
     
     document.querySelector(".kizilay-close").addEventListener("click", function() {
-    $(".kizilay-wrap").style.display = "none";
+    document.querySelector(".kizilay-wrap").style.display = "none";
     document.cookie = "kizilaygosterme=1; path=/;";
     });
